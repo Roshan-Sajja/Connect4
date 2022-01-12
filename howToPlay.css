@@ -1,0 +1,75 @@
+body{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+.navigation{
+    background-color: rgb(51, 50, 50);
+    overflow:hidden;
+}
+.navigation a{
+    float: right;
+    display:block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 18px 60px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navigation a.active{
+    background-color: antiquewhite;
+    color: rgb(51, 50, 50);
+}
+
+.navigation a:hover{
+    background-color:black;
+    color:antiquewhite;
+
+    
+}
+.navigationLeft{
+    float: left;
+    letter-spacing: 3px;
+    font-size: 24px;
+    
+}
+.instruction{
+    margin-left: 20px;
+}
+.instruction h3{
+    margin-left: 28%;
+    text-align: center;
+    background-color: rgb(51, 50, 50);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:antiquewhite;
+    width: 40%;
+    padding:15px 28px;
+}
+#description{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.instruction p{
+    font-size: larger;
+    margin-right: 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.instruction a{
+    color:lightskyblue
+}
+#gameBox{
+    background-color:rgb(51, 50, 50) ;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 9px;
+    color: coral;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 43.6%;
+     
+}

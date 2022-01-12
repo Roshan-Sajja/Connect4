@@ -1,0 +1,12 @@
+{
+    "101": {
+        "gameID": "101",
+        "user1": "deadman",
+        "user2": "kingslayer",
+        "userTurn": "deadman",
+        "gameState": [],
+        "history": [],
+        "winner": null,
+        "active": true
+    }
+}

@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    
+}
+.navigation{
+    background-color: rgb(51, 50, 50);
+    overflow:hidden;
+}
+.navigation a{
+    float: right;
+    display:block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 18px 40px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navigation a.active{
+    background-color: antiquewhite;
+    color: rgb(51, 50, 50);
+}
+
+.navigation a:hover{
+    background-color:black;
+    color:antiquewhite;
+
+    
+}
+.navigationLeft{
+    float: left;
+    letter-spacing: 3px;
+    font-size: 24px;
+    
+}
+
+.name{
+    
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+}
+.username b{
+    
+    font-size:large;
+    vertical-align:middle;
+    margin-left: 40%;
+}
+
+.password b{
+    text-align: center;
+    font-size:large;
+    vertical-align:middle;
+    margin-left: 40%;
+}
+
+
+input[type=text], input[type=password]{
+    text-align: center;
+    width:15%;
+    padding: 11px 16px;
+    margin: 20px 5px;
+    
+    display:inline-block;
+    border:2px solid rgb(51, 50, 50);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+button{
+    background-color: rgb(51, 50, 50);
+    color:antiquewhite;
+    border-radius: 10px;
+    padding:10px 16px;
+    margin-top: 40px;
+    margin-left:46.5%;
+    margin-bottom: 20px;
+    width:10%;
+    font-size: medium;
+}
+.forgPassword{
+    margin-left: 47%;
+    
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(216, 44, 79);
+}
+#loginErrorMsg{
+    text-align: center;
+    font-size: large;
+
+}

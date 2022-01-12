@@ -1,0 +1,45 @@
+canvas {
+    border: 1px solid #ffffff;
+    background-color: antiquewhite;
+}
+body {
+    background-color: antiquewhite;
+}
+.navigation{
+    background-color: rgb(51, 50, 50);
+    overflow:hidden;
+}
+.navigation a{
+    float: right;
+    display:block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 18px 40px;
+    font-size: large;
+    text-decoration: none;
+}
+.navigation a.active{
+    background-color: antiquewhite;
+    color: rgb(51, 50, 50);
+}
+
+.navigation a:hover{
+    background-color:black;
+    color:antiquewhite;
+
+
+}
+.navigationLeft{
+    float: left;
+    letter-spacing: 3px;
+    font-size: large;
+
+
+}
+.navMid{
+    text-align: center;
+    font-size: x-large;
+    font-weight:bolder;
+    padding: 16px 28px;
+    color:antiquewhite;
+}
